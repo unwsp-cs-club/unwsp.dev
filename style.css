@@ -16,9 +16,15 @@ body, html {
 }
 
 #title {
-    padding-top: 300px;
+    padding-top: 100px;
     margin: 0px;
     padding-bottom: 25px;
+}
+
+@media (min-width: 700px) {
+    #title {
+        padding-top: 300px;
+    }
 }
 
 #description {
@@ -34,16 +40,34 @@ body, html {
 }
 
 #lower-content {
-    width: 100%;
+    width: 80%;
     color: black;
     text-align: center;
-    height: 100%;;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+    #lower-content {
+        width: 80%;
+    }
 }
 
 #calendar-title {
-    padding-top: 200px;
+    padding-top: 50px;
+}
+
+@media (min-width: 700px) {
+    #calendar-title {
+        padding-top: 200px;
+    }
 }
 
 .calendar-entry {
     margin: 5px;
+}
+
+.calendar-disclaimer {
+    color: gray;
+    font-style: italic;
 }
