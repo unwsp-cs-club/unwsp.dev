@@ -1,5 +1,6 @@
 const title = document.getElementById("title")
-
+const hamburger = document.getElementById("hamburger")
+const navContent = document.getElementById("nav-content")
 
 function animate() {
     setTimeout(() => {
@@ -17,3 +18,13 @@ function animate() {
 }
 
 animate();
+
+// When the Hamburger menu is clicked, toggle the hidden navigation menu content.
+hamburger.addEventListener('click', event => {
+    if(navContent.style.display == 'none') {
+        navContent.style.display = 'block';
+    } else {
+        navContent.style.display = 'none';
+    }
+})
+navContent.style.display = 'none';

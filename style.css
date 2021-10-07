@@ -71,3 +71,38 @@ body, html {
     color: gray;
     font-style: italic;
 }
+
+#nav {
+    position: absolute;
+    width: 100%;
+}
+
+#nav img {
+    padding: 25px;
+}
+
+#hamburger {
+    float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#nav-content {
+    display: none;
+    float: right;
+    padding-top: 50px;
+}
+
+a {
+    color: lightblue;
+    display: block;
+}
+
+hr {
+    width: 60%;
+    opacity: 25%;
+}
